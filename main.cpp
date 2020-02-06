@@ -1,14 +1,15 @@
 // Meltanyossagi-2020-feb.cpp : Defines the entry point for the console application.
 //
 
+// FIGYELEM:
+// FELADAT: keszitsen egy MediaOutlets.cpp fajlt -- abban valositson meg minden metodust es fuggvenyt, ami kell a main fv fordulasahoz es helyes futasashoz.
+
 #include "stdafx.h"
 #include <iostream>
 #include <vector>
 #include <string>
 
 #include "MediaOutlets.h"
-
-// Feladat: a MediaOutlets.cpp fajlban valositson meg minden metodust es fuggvenyt, ami kell a main fv fordulasahoz es helyes futasashoz.
 
 // csak deklaraciok - definialni is kell oket a MediaOutlets.cpp file-ban
 bool isMediaOutletANewspaper(MediaOutlet* mo);
